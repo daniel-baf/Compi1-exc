@@ -242,7 +242,7 @@ public class MainView extends javax.swing.JFrame {
             listModel.addElement((i + 1) + " vocal(es): " + valuesVocal[i]); // add items
         }
         // add the 0 vowels
-        listModel.addElement("0 vocales: " + valuesVocal[4]);
+        listModel.addElement("0 vocales: " + valuesVocal[5]);
         // set new model
         this.vowelWordResultJList.setModel(listModel);
     }
